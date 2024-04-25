@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-25T10:34:31.360Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="lFitQ6PSmQKMILuFch3t" version="24.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-25T10:59:23.702Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="5ul38WC9jCgx_pHQ6-mB" version="24.3.0" type="github">
   <diagram name="Page-1" id="-cT09IQETsLfMejOZerS">
     <mxGraphModel dx="2954" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
           <mxGeometry x="210" y="20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vd8t_71U_yh1O-v_x3m3-2" value="&lt;b&gt;Rinie&lt;span style=&quot;background-color: initial;&quot;&gt;Rest.WAR&lt;/span&gt;&lt;/b&gt;&lt;div&gt;&lt;div&gt;eessi-rina-demo/&lt;br&gt;eessi-rina-nie-war&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1490" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="2320" y="20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vd8t_71U_yh1O-v_x3m3-3" value="&lt;b&gt;eessi-rina-nieclient-api&lt;br&gt;(.JAR)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="370" width="120" height="60" as="geometry" />
@@ -46,16 +46,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vd8t_71U_yh1O-v_x3m3-6" value="&lt;b&gt;eessi-rina-nieclient-impl&lt;br&gt;(.JAR)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="810" width="120" height="60" as="geometry" />
+          <mxGeometry x="1830" y="840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vd8t_71U_yh1O-v_x3m3-7" value="&lt;b&gt;eessi-rina-nieclient-ms-client&lt;br&gt;(.JAR)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="745" y="810" width="120" height="60" as="geometry" />
+          <mxGeometry x="670" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vd8t_71U_yh1O-v_x3m3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vd8t_71U_yh1O-v_x3m3-8" target="vd8t_71U_yh1O-v_x3m3-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1430" y="930" />
-              <mxPoint x="120" y="930" />
+              <mxPoint x="1430" y="870" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -68,19 +67,18 @@
           <mxGeometry x="1370" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vd8t_71U_yh1O-v_x3m3-9" value="interface:&lt;br&gt;NieClient" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="810" y="430" width="70" height="40" as="geometry" />
+          <mxGeometry x="910" y="440" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vd8t_71U_yh1O-v_x3m3-10" value="interface:&lt;br&gt;NieMSServer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="895" y="470" width="90" height="40" as="geometry" />
+          <mxGeometry x="795" y="440" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vd8t_71U_yh1O-v_x3m3-11" value="interface:&lt;br&gt;NieMSClient" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="695" y="470" width="90" height="40" as="geometry" />
+          <mxGeometry x="690" y="440" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vd8t_71U_yh1O-v_x3m3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.511;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;shape=flexArrow;" edge="1" parent="1" source="vd8t_71U_yh1O-v_x3m3-7" target="vd8t_71U_yh1O-v_x3m3-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="450" y="600" />
-              <mxPoint x="336" y="600" />
+              <mxPoint x="736" y="810" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -141,12 +139,17 @@
           <mxGeometry y="26" width="360" height="124" as="geometry" />
         </mxCell>
         <mxCell id="vd8t_71U_yh1O-v_x3m3-41" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;3.&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1747" y="1286" as="geometry">
+          <mxGeometry x="1690" y="1286" as="geometry">
             <mxPoint x="-4" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vd8t_71U_yh1O-v_x3m3-42" value="NieClientImpl.java implements NieClient" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="71.5" y="1430" width="430" height="240" as="geometry" />
+          <mxGeometry x="1690" y="1450" width="430" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="vd8t_71U_yh1O-v_x3m3-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vd8t_71U_yh1O-v_x3m3-42" source="vd8t_71U_yh1O-v_x3m3-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="-1290" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="vd8t_71U_yh1O-v_x3m3-43" value="&lt;span style=&quot;background-color: initial;&quot;&gt;private static final RestClient restClient = new RestClient();&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;..&amp;nbsp; {&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(135, 16, 148); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; background-color: rgb(255, 255, 255);&quot;&gt;restClient&lt;/span&gt;.postEvent(..)&lt;br&gt;..&lt;br&gt;}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vd8t_71U_yh1O-v_x3m3-42">
           <mxGeometry y="26" width="430" height="214" as="geometry" />
@@ -156,9 +159,8 @@
             <Array as="points">
               <mxPoint x="1650" y="1240" />
               <mxPoint x="1670" y="1240" />
-              <mxPoint x="1670" y="1410" />
-              <mxPoint x="52" y="1410" />
-              <mxPoint x="52" y="1563" />
+              <mxPoint x="1670" y="1563" />
+              <mxPoint x="1690" y="1563" />
             </Array>
           </mxGeometry>
         </mxCell>
